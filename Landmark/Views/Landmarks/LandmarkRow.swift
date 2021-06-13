@@ -8,16 +8,21 @@
 import SwiftUI
 
 struct LandmarkRow: View {
-    var landmarkrow: Landmark
+    var landmark: Landmark
     
     var body: some View {
         HStack {
-            landmarkrow.image
+            landmark.image
                 .resizable()
                 .frame(width: 50, height: 50)
-            Text(landmarkrow.name)
+            Text(landmark.name)
             
             Spacer()
+            
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
@@ -25,7 +30,7 @@ struct LandmarkRow: View {
 struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
         Group{
-            LandmarkRow(landmarkrow: modelData[1])   //ModelData
+            LandmarkRow(landmark: ModelData().landmarkModel[0])   //ModelData
            // LandmarkRow(landmark: landmarks[1])
 
 //        LandmarkRow(landmark: landmarks[0])
