@@ -45,7 +45,8 @@ struct HikeView: View {
 
             if showDetail {
                 HikeDetail(hike: hike)
-                    .transition(.slide)
+       //             .transition(.slide)
+                    .transition(.moveAndFade)
             }
         }
     }
@@ -63,6 +64,7 @@ struct HikeView_Previews: PreviewProvider {
 
 extension AnyTransition {
     static var moveAndFade: AnyTransition {
+    //    AnyTransition.slide
         let insertion = AnyTransition.move(edge: .trailing)
             .combined(with: .opacity)
         let removal = AnyTransition.scale
