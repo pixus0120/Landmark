@@ -40,6 +40,7 @@
 		BED452FF2697729A00BF9641 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED452FE2697729A00BF9641 /* ProfileHost.swift */; };
 		BED453022697737A00BF9641 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED453012697737A00BF9641 /* ProfileSummary.swift */; };
 		BED453042697769C00BF9641 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED453032697769C00BF9641 /* HikeBadge.swift */; };
+		BED4530626977F5500BF9641 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4530526977F5500BF9641 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		BED452FE2697729A00BF9641 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		BED453012697737A00BF9641 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		BED453032697769C00BF9641 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		BED4530526977F5500BF9641 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 			children = (
 				BED452FE2697729A00BF9641 /* ProfileHost.swift */,
 				BED453012697737A00BF9641 /* ProfileSummary.swift */,
+				BED4530526977F5500BF9641 /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			files = (
 				BE698A6D2672B72700E391CD /* Landmark.swift in Sources */,
 				BE76F772267672AC007B547F /* Badge.swift in Sources */,
+				BED4530626977F5500BF9641 /* ProfileEditor.swift in Sources */,
 				BED453022697737A00BF9641 /* ProfileSummary.swift in Sources */,
 				BE7EA84826641F9F00995547 /* Persistence.swift in Sources */,
 				BED452FD2697711E00BF9641 /* Profile.swift in Sources */,
