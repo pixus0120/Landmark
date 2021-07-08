@@ -40,7 +40,7 @@ struct HikeView: View {
 //                        .animation(nil)
                         .scaleEffect(showDetail ? 1.5 :1)
                         .padding()
-//                        .animation(.spring())
+  //                      .animation(.spring())
                 }
             }
 
