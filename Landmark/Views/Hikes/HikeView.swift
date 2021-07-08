@@ -28,9 +28,8 @@ struct HikeView: View {
 
                 Button(action: {
                     /////////////////////
-                  //  withAnimation(.easeInOut(duration: 4)){
-                    withAnimation {
-                        
+              //      withAnimation(.easeInOut(duration: 4)){
+                   withAnimation {
                     self.showDetail.toggle()
                     }
                 }) {
