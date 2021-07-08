@@ -163,8 +163,8 @@
 		BE76F78226769DC5007B547F /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				BE76F7832676A4B7007B547F /* CategoryRow.swift */,
 				BE76F7852676A853007B547F /* CategoryItems.swift */,
+				BE76F7832676A4B7007B547F /* CategoryRow.swift */,
 				BED452FA2697655700BF9641 /* CategoryHome.swift */,
 			);
 			path = Categories;
